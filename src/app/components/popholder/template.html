@@ -1,0 +1,17 @@
+<GridLayout rows="auto, *, auto" columns="auto, *, auto">
+    <Label col="0" [text]="popUncaughtCount" textWrap="true" class="score-label uncaught"></Label>
+    <Slider col="1" [minValue]="sliderMinimum" [maxValue]="sliderMaximum" [value]="sliderValue" class="slider"></Slider>
+    <Label col="2" [text]="popCaughtCount" textWrap="true" class="score-label caught"></Label>
+    <AbsoluteLayout row="1" col="0" colSpan="3" #popsHolder class="pops-holder">
+        <ng-template popHost></ng-template>
+    </AbsoluteLayout>
+    <GridLayout row="2" col="0" colSpan="3" rows="auto" columns="auto, auto, auto" padding="5">
+        <StackLayout col=" 0 " class="treasure-box bomb-all ">
+        </StackLayout>
+        <StackLayout col="1 " class="treasure-box speed-limiter ">
+        </StackLayout>
+        <StackLayout col="3 " class="treasure-box ">
+            <Label text="" textWrap="true"></Label>
+        </StackLayout>
+    </GridLayout>
+</GridLayout>

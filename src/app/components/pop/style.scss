@@ -1,0 +1,60 @@
+stacklayout {
+    background-color: transparent;
+    width: 100;
+    height: 100;
+    border-radius: 50;
+    vertical-align: center;
+    bottom: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+stacklayout label {
+    width: 90%;
+    text-align: center;
+}
+
+.pop-red {
+    background-image: url("~/assets/images/red.png");
+} 
+.pop-green {
+    background-image: url("~/assets/images/green.png");
+} 
+.pop-blue {
+    background-image: url("~/assets/images/blue.png");
+} 
+.pop-orange {
+    background-image: url("~/assets/images/orange.png");
+} 
+.pop-pink {
+    background-image: url("~/assets/images/pink.png");
+} 
+.pop-purple {
+    background-image: url("~/assets/images/purple.png");
+} 
+.pop-yellow {
+    background-image: url("~/assets/images/yellow.png");
+} 
+.pop-mickey {
+    background-image: url("~/assets/images/mickey.png");
+} 
+.pop-sofia {
+    background-image: url("~/assets/images/sofia.png");
+} 
+.pop-turtle {
+    background-image: url("~/assets/images/turtle.png");
+} 
+.pop-color-bomb {
+    background-image: url("~/assets/images/color-bomb.png");
+} 
+.pop-cartoon-bomb {
+    background-image: url("~/assets/images/cartoon-bomb.png");
+} 
+.pop-all-bomb {
+    background-image: url("~/assets/images/all-bomb.png");
+} 
+.pop-speed-limiter {
+    background-image: url("~/assets/images/speed-limiter.png");
+} 

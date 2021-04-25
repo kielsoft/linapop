@@ -1,0 +1,44 @@
+.pops-holder {
+    background-color: skyblue;
+    background-image: url("~/assets/images/tile-sky.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.score-label {
+    vertical-align: middle;
+    horizontal-align: stretch;
+    text-align: center;
+    padding: 0 10;
+    font-weight: bold;
+}
+
+.score-label.caught {
+    color: green;
+}
+
+.score-label.uncaught {
+    color: red;
+}
+
+
+
+.treasure-box {
+    background-color: rgba(0,0,0, 0.1);
+    width: 50;
+    height: 50;
+    border-radius: 25;
+    vertical-align: center;
+    bottom: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bomb-all {
+    background-image: url("~/assets/images/all-bomb.png");
+} 
+.speed-limiter {
+    background-image: url("~/assets/images/speed-limiter.png");
+} 
