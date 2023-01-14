@@ -40,7 +40,7 @@
         "@angular/compiler-cli": "~11.0.0",
         "@nativescript/android": "7.0.1",
         "@nativescript/types": "~7.0.0",
-        "@nativescript/webpack": "~4.0.0",
+        "@nativescript/webpack": "~5.0.12",
         "@ngtools/webpack": "~11.0.0",
         "node-sass": "^4.14.1",
         "tslint": "^6.1.3",
